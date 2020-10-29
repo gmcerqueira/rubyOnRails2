@@ -18,7 +18,7 @@ class ProdutosController < ApplicationController
   
   def update
     if @produto.update produto_params
-      flash[:notice] = "Produto atualizado com sucesso!"
+      flash[:notice] = "Produto atualizado com sucesso"
       redirect_to root_url
     else
       renderizar :edit
