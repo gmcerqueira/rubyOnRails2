@@ -1,7 +1,7 @@
 <%= form_with(model: departamento, local: true) do |form| %>
   <% if departamento.errors.any? %>
     <div id="error_explanation">
-      <h2><%= pluralize(departamento.errors.count, "error") %> prohibited this departamento from being saved:</h2>
+      <h2><%= departamento.errors.count %> erro(s) impediu este departamento ser de criado:</h2>
 
       <ul>
       <% departamento.errors.full_messages.each do |message| %>
