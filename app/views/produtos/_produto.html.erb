@@ -4,7 +4,7 @@
   <td><%= produto.departamento.nome %></td>
   <td><%= "R$ %0.02f\n" % produto.preco.round(2) %></td>
   <td><%= produto.quantidade %></td>
-  <td><%= link_to "Alterar", edit_produto_path(produto), class:"btn btn-default" %></td>
+  <td><%= link_to "Atualizar", edit_produto_path(produto), class:"btn btn-default" %></td>
   <td><%= button_to "Remover", produto, method: :delete,
   class:"btn btn-danger",
   data: {confirm: "Deseja relamente deletar o produto #{produto.nome}?"} %></td>

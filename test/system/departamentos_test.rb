@@ -26,7 +26,7 @@ class DepartamentosTest < ApplicationSystemTestCase
     click_on "Edit", match: :first
 
     fill_in "Nome", with: @departamento.nome
-    click_on "Update Departamento"
+    click_on "Update departamento"
 
     assert_text "Departamento was successfully updated"
     click_on "Back"
