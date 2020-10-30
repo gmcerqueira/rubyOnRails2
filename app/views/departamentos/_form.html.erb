@@ -1,10 +1,10 @@
-<%= form_with(model: departamento, local: true) do |form| %>
-  <% if departamento.errors.any? %>
+<%= form_with(model: @departamento, local: true) do |form| %>
+  <% if @departamento.errors.any? %>
     <div id="error_explanation">
-      <h2><%= departamento.errors.count %> erro(s) impediu este departamento ser de criado:</h2>
+      <h2><%= @departamento.errors.count %> erro(s) impediu este departamento ser de criado:</h2>
 
       <ul>
-      <% departamento.errors.full_messages.each do |message| %>
+      <% @departamento.errors.full_messages.each do |message| %>
         <li><%= message %></li>
       <% end %>
       </ul>
@@ -21,7 +21,7 @@
   </div>
 
   <div class="actions">
-    <%= form.submit  class:"btn btn-default" %>
+    <%= form.submit texto_da_acao, class:"btn btn-default" %>
     <%= link_to 'Voltar', departamentos_path, class:"btn btn-default" %>
   </div>
 <% end %>
