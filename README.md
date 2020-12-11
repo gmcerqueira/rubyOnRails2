@@ -1,24 +1,6 @@
 # README
+* Projeto realizado no curso Ruby on Rails 5 parte 2: Validação, atualização, partials e deploy na plataforma de cursos Alura.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Atualização do projeto feito na parte um do curso de rails onde agora além de cadastras e remover produtos é possível atualizar e atribuir um departamento que também pode ser criado, editado e removido. Foi mantido a funcionalidade de busca dos produtos pelo nome na loja.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Algumas gems podem estar desatualizadas.
